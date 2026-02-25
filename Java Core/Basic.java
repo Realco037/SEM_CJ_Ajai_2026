@@ -21,7 +21,7 @@ public class Basic {
     // Static Variable (belongs to class)
     static int staticNumber = 100;
 
-    public static void main(String[] args) {
+    public static void main(String1[] args) {
 
         System.out.println("===== JAVA UNIT 1 DEMO =====");
 
@@ -33,7 +33,7 @@ public class Basic {
         double salary = 25000.75;
         char grade = 'A';
         boolean isPassed = true;
-        String name = "Student";
+        String1 name = "Student";
 
         System.out.println("\n--- Variables ---");
         System.out.println("Name: " + name);
