@@ -2,22 +2,20 @@
 
 
 public class hello {
-
-   
-    // public String toString(){
-    //         return "ajai";
-    //   }
+  
+   // public  String toString(){
+   //    return "AJAI";
+   // }
+    
 
        public static void main(String[] args) {
-         hello h = new hello(); 
-         System.out.println(h);
-        // System.out.println("Hello World");
-        // hello h = new hello();
-        //  System.out.println(h);
-        // String s = new String();
-        // System.out.println(s);
-        // String s1 = new String("sdfsdf");
-        //  System.out.println(s1);
+        
+       hello h = new hello();
+       String s = new String();
+       String s1 = new String("asdasd");
+       System.out.println(s);
+       System.out.println(h);
+       System.out.println(s1);
 
     }
 }
