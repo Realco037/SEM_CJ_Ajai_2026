@@ -1,192 +1,105 @@
-
-# 🚀 SEM_CJ_AJAI_2026
-
-Welcome to the Java Core Practice Repository 👨‍💻🔥
-
-This repository is created to help students:
-
-- Learn Java fundamentals
-- Practice daily coding
-- Learn Git & GitHub
-- Improve consistency
+# 📘 Java Programming — Complete Reading Material
+### Full Study Guide: Unit 1 through Unit 5
 
 ---
 
-## 📅 Daily Questions
+## 📁 Unit 1 — Java Fundamentals
 
-Every day, a new question will be uploaded inside:
-
-Daily problems → Question (with today’s date)
-
-Students must:
-
-1. Solve the question.
-2. Upload their solution.
-3. Create a Pull Request (PR).
-
-Questions will be updated daily. Make sure you check regularly.
+| # | Topic | File |
+|---|---|---|
+| 1 | Introduction to Java: History, Features & Program Structure | [01_Introduction_to_Java.md](Unit1/01_Introduction_to_Java.md) |
+| 2 | Command-Line Arguments & Understanding JDK, JRE, JVM | [02_CommandLine_JDK_JRE_JVM.md](Unit1/02_CommandLine_JDK_JRE_JVM.md) |
+| 3 | Primitive Data Types & Type Conversion | [03_DataTypes_TypeConversion.md](Unit1/03_DataTypes_TypeConversion.md) |
+| 4 | Keywords, Identifiers, Variables & Access Modifiers | [04_Keywords_Identifiers_Variables.md](Unit1/04_Keywords_Identifiers_Variables.md) |
+| 5 | Wrapper Classes | [05_WrapperClasses.md](Unit1/05_WrapperClasses.md) |
+| 6 | Operators in Java | [06_Operators.md](Unit1/06_Operators.md) |
+| 7 | Conditional Statements: if/else & switch-case | [07_ConditionalStatements.md](Unit1/07_ConditionalStatements.md) |
 
 ---
 
-## 🛠 How to Submit Your Solution (Step-by-Step)
+## 📁 Unit 2 — Control Flow, Data Structures & OOP Basics
 
-Follow these steps carefully.
-
----
-
-### ✅ STEP 1: Fork the Repository
-
-1. Open this repository on GitHub.
-2. Click the **Fork** button (top right).
-3. This creates a copy in your GitHub account.
+| # | Topic | File |
+|---|---|---|
+| 1 | Loops: for, while, do-while, and for-each | [01_Loops.md](Unit2/01_Loops.md) |
+| 2 | Arrays and Enums | [02_Arrays_Enums.md](Unit2/02_Arrays_Enums.md) |
+| 3 | OOP Concepts: Classes, Objects, Constructors & Overloading | [03_OOP_Concepts.md](Unit2/03_OOP_Concepts.md) |
+| 4 | String Class & StringBuilder | [04_String_StringBuilder.md](Unit2/04_String_StringBuilder.md) |
 
 ---
 
-### ✅ STEP 2: Clone Your Fork
+## 📁 Unit 3 — Inheritance, Polymorphism & Abstraction
 
-Open Terminal / Git Bash and run:
-
-```
-
-
-git clone [https://github.com/YOUR-USERNAME/SEM_CJ_AJAI_2026.git](https://github.com/YOUR-USERNAME/SEM_CJ_AJAI_2026.git)
-
-```
-
-Then move into the folder:
-
-```
-
-cd SEM_CJ_AJAI_2026
-
-```
+| # | Topic | File |
+|---|---|---|
+| 1 | Inheritance | [01_Inheritance.md](Unit3/01_Inheritance.md) |
+| 2 | Method Overriding, super, Object Class, instanceof & final | [02_MethodOverriding_super.md](Unit3/02_MethodOverriding_super.md) |
+| 3 | Abstract Classes and Interfaces | [03_Abstract_Interface.md](Unit3/03_Abstract_Interface.md) |
 
 ---
 
-### ✅ STEP 3: Create a New Branch
+## 📁 Unit 4 — Nested Classes, Lambdas, Dates & Exceptions
 
-⚠️ Important: Do NOT push directly to main branch.
-
-Create a new branch like this:
-
-```
-
-git checkout -b solution-DD-MM-YYYY-yourname
-
-```
-
-Example:
-
-```
-
-git checkout -b solution-17-02-2026-rahul
-
-```
+| # | Topic | File |
+|---|---|---|
+| 1 | Nested Classes: Static, Non-static, Local & Anonymous | [01_NestedClasses.md](Unit4/01_NestedClasses.md) |
+| 2 | Functional Interfaces & Lambda Expressions | [02_Lambda_FunctionalInterface.md](Unit4/02_Lambda_FunctionalInterface.md) |
+| 3 | Working with Dates (java.time API) | [03_Dates.md](Unit4/03_Dates.md) |
+| 4 | Exceptions and Assertions | [04_Exceptions_Assertions.md](Unit4/04_Exceptions_Assertions.md) |
 
 ---
 
-### ✅ STEP 4: Add Your Solution File
+## 📁 Unit 5 — I/O, Multithreading & Generics
 
-Go to:
-
-Daily problems → Solution (with today’s date)
-
-Create a new file:
-
-```
-
-YourName_Q1.java
-
-```
-
-Example:
-
-```
-
-Rahul_Q1.java
-
-```
-
-Write your Java solution inside it.
+| # | Topic | File |
+|---|---|---|
+| 1 | I/O Fundamentals: Streams, File I/O & Serialization | [01_IO_Fundamentals.md](Unit5/01_IO_Fundamentals.md) |
+| 2 | Multithreading: Lifecycle, Synchronization & Inter-thread Communication | [02_Multithreading.md](Unit5/02_Multithreading.md) |
+| 3 | Generics: Custom Classes, Diamond Inference, Bounded Types & Wildcards | [03_Generics.md](Unit5/03_Generics.md) |
 
 ---
 
-### ✅ STEP 5: Add Your Changes
+## 📖 How Each Topic Is Organized
 
-```
+Every file contains three sections:
 
-git add .
-
-```
-
----
-
-### ✅ STEP 6: Commit Your Changes
-
-```
-
-git commit -m "Added solution for DD-MM-YYYY by YourName"
-
-```
-
-Example:
-
-```
-
-git commit -m "Added solution for 17-02-2026 by Rahul"
-
-```
+1. **📖 Theory** — Concepts explained clearly with tables and diagrams
+2. **🧪 Practice Questions** — Test your understanding before moving on
+3. **💻 Examples** — Fully working, runnable Java programs with expected output
 
 ---
 
-### ✅ STEP 7: Push Your Branch
+## 🚀 Suggested Study Path
 
 ```
-
-git push origin solution-DD-MM-YYYY-yourname
-
+Unit 1 (7 topics) → Unit 2 (4 topics) → Unit 3 (3 topics) → Unit 4 (4 topics) → Unit 5 (3 topics)
 ```
+
+Each file has navigation links at the bottom to guide you to the next topic.
 
 ---
 
-### ✅ STEP 8: Create Pull Request
+## 📊 Complete Coverage at a Glance
 
-1. Go to your forked repository on GitHub.
-2. Click **Compare & Pull Request**.
-3. Add a proper title:
-
-   Example:
-
-```
-
-Solution for 17-02-2026 - Rahul
-
-```
-
-4. Click **Create Pull Request**.
-
-Done ✅
+| Unit | Topics | Key Concepts |
+|---|---|---|
+| 1 | 7 | Java history, JDK/JRE/JVM, data types, variables, operators, conditionals |
+| 2 | 4 | Loops, arrays, enums, OOP basics, String, StringBuilder |
+| 3 | 3 | Inheritance, overriding, super, abstract class, interfaces |
+| 4 | 4 | Nested classes, lambdas, java.time, exceptions, assertions |
+| 5 | 3 | File I/O, serialization, threads, synchronization, generics |
+| **Total** | **21** | **Full Java programming syllabus** |
 
 ---
 
-## 📌 Rules
+## 💡 Tips for Students
 
-- Write clean and readable code.
-- Use proper class name.
-- Do not modify other students’ files.
-- One question = one file.
-- Always create a new branch.
-
----
-
-## 🎯 Goal
-
-Solve daily.
-Push daily.
-Improve daily.
-
-Consistency is more important than motivation.
+- **Type out every example** — don't just read. Muscle memory matters in programming.
+- **Modify examples** — change values, remove things, break them on purpose. Understanding errors = deep learning.
+- **Attempt practice questions** before looking anything up.
+- **Compile and run everything** — fix errors yourself first before googling.
+- **Revisit theory** whenever a concept doesn't click while coding.
 
 ---
 
-Maintained by: Ajai Raj
+*21 topics. 5 units. One complete Java guide. Good luck! 🎉*
